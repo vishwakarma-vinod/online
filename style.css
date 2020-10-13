@@ -54,6 +54,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .main-content-form {
@@ -155,17 +156,15 @@ h2 {
 .choose-us {
   padding-top: 50px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .choose-us-section {
   background-color: #eca116;
-  border-radius: 50%;
   text-align: center;
   width: 200px;
   height: 200px;
-
   padding: 30px;
 }
 
@@ -377,6 +376,7 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .contact-us-section-heading {
@@ -415,4 +415,432 @@ h2 {
 
 .footer-list-link:hover {
   color: #000;
+}
+
+@media screen and (max-width: 900px) {
+  .main-content-header h1 {
+    font-size: 40px;
+  }
+
+  .main-content-header p {
+    font-size: 18px;
+  }
+
+  .header-btn {
+    margin-right: 30px;
+    background: orange;
+    border-radius: 30px 0px 0px 30px;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .main-content-form {
+    background: #195b92;
+    padding: 10px;
+  }
+
+  .input-field {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: rgba(34, 32, 41, 0.5);
+    color: #fff;
+  }
+
+  .choose-heading {
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+    margin: 0;
+    font-weight: 100;
+  }
+
+  .details {
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .details-pro {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .product-details {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .course-section-pro {
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .basic-course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+
+  .course-headline {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 45px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .basic-course-img {
+    border: 1px solid #eca116;
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+  }
+
+  .about-us-section-pro {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .about-paragraph {
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .testimonial-pro {
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .testimonial-paragraph {
+    color: #000;
+    font-size: 14px;
+    margin: 10px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .contact-us-section-pro {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .contact-us-section-heading {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 806px) {
+  .choose-us-section {
+    background-color: #eca116;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    padding: 30px;
+  }
+
+  .course-btn {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    border: none;
+    cursor: pointer;
+    background: orange;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .logo {
+    color: #195b92;
+    font-weight: 100;
+    cursor: pointer;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .basic-course-img {
+    border: 1px solid #eca116;
+    border-radius: 20px;
+    width: 390px;
+    height: auto;
+  }
+  .course-btn {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    border: none;
+    cursor: pointer;
+    background: orange;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .course-desc-list {
+    margin-left: 65px;
+    list-style-type: circle;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logo {
+    color: #195b92;
+    font-weight: 100;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  h1 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 45px;
+  }
+
+  span {
+    color: orange;
+    font-weight: 100;
+  }
+
+  p {
+    color: #fff;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 50px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .header-btn {
+    margin-right: 30px;
+    background: orange;
+    border-radius: 30px 0px 0px 30px;
+    color: #fff;
+    padding: 10px 20px 10px 10px;
+    cursor: pointer;
+    font-weight: 400;
+  }
+
+  .header-btn:hover,
+  .header-btn:active {
+    background: #eca116;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  }
+
+  .main-content-form {
+    background: #195b92;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .input-field {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: rgba(34, 32, 41, 0.5);
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .logo {
+    color: #195b92;
+    font-weight: 100;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  span {
+    color: orange;
+    font-weight: 100;
+  }
+
+  p {
+    color: #fff;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 50px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .header-btn {
+    margin-right: 30px;
+    background: orange;
+    border-radius: 30px 0px 0px 30px;
+    color: #fff;
+    padding: 10px 20px 10px 10px;
+    cursor: pointer;
+    font-weight: 400;
+  }
+
+  .header-btn:hover,
+  .header-btn:active {
+    background: #eca116;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  }
+
+  .main-content-form {
+    background: #195b92;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .input-field {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: rgba(34, 32, 41, 0.5);
+    color: #fff;
+  }
+
+  .main_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nav_list {
+    list-style: none;
+  }
+
+  .nav_list-link {
+    display: inline-flex;
+  }
+
+  .nav_link {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+  }
+
+  .nav_link:hover {
+    color: #eca116;
+  }
+
+  .testimonial-pro {
+    color: #000;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .testimonial {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .testimonial-paragraph {
+    color: #000;
+    font-size: 15px;
+    margin: 10px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .testimonial-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: 2px solid #eca116;
+  }
 }
