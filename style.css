@@ -712,6 +712,31 @@ h2 {
   }
 }
 
+@media screen and (max-width: 598px) {
+  .main_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nav_list {
+    list-style: none;
+  }
+
+  .nav_list-link {
+    display: inline-flex;
+  }
+
+  .nav_link {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+  }
+}
+
 @media screen and (max-width: 485px) {
   .logo {
     color: #195b92;
